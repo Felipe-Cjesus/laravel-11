@@ -7,11 +7,32 @@
 ![Composer](https://img.shields.io/badge/Composer-2.x-885630?style=for-the-badge&logo=composer&logoColor=white)
 ![NPM](https://img.shields.io/badge/NPM-9.x-CB3837?style=for-the-badge&logo=npm&logoColor=white)
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)
+[![Status](https://img.shields.io/badge/status-Em%20Desenvolvimento-yellow.svg)]()
+
+---
+## 📚 Sobre o Projeto
+
+Este projeto foi desenvolvido como parte de um curso de aprendizado prático de Laravel, com o objetivo de aplicar as boas práticas do framework.
+
+O projeto consiste em um sistema de **cadastro de usuários**, utilizando:
+- **Laravel 11** para o backend
+- **TailwindCSS** para a estilização
+- Aplicando princípios de organização de código, rotas, controllers, validações e layouts.
 
 ---
 
-Bem-vindo ao repositório do projeto desenvolvido durante o curso de aprendizado de **Laravel 11**!  
-Este projeto consiste em um sistema de **cadastro de usuários**, aplicando as **boas práticas de desenvolvimento** recomendadas pelo framework, com a interface estilizada utilizando **TailwindCSS**.
+## 🚀 Melhorias em Desenvolvimento
+
+Este projeto está em constante evolução. As próximas implementações planejadas são:
+
+- 📌 **Módulo de Fórum**:  
+  Área de interação entre os usuários cadastrados, permitindo postagens de mensagens, comentários e envio de fotos.
+
+- 📌 **API REST**:  
+  Desenvolvimento de uma API RESTful para fornecer dados ao aplicativo **mobile**.
+
+- 📱 **Aplicativo Mobile (React Native)**:  
+  Será desenvolvido um app mobile que irá consumir a API do projeto Laravel, permitindo interações como cadastro, login, fórum e outras funcionalidades.
 
 ---
 
@@ -23,6 +44,7 @@ Este projeto consiste em um sistema de **cadastro de usuários**, aplicando as *
 - [MySQL 8.x](https://dev.mysql.com/doc/)
 - [Composer](https://getcomposer.org/)
 - [NPM](https://www.npmjs.com/)
+- [API REST]()
 
 ---
 
@@ -136,9 +158,40 @@ database/
 
 ---
 
+## 🔥 Melhorias Futuras
+
+O projeto receberá novos módulos para expandir suas funcionalidades:
+
+- **Módulo de Fórum de Assuntos**: 
+  - Área de interação entre usuários cadastrados.
+  - Criação de tópicos, postagens e troca de mensagens com upload de fotos.
+  - Sistema de status e resposta.
+
+- **Implementação de API REST**:
+  - Desenvolvimento de endpoints para integração externa.
+  - Suporte a operações CRUD via API usando autenticação segura.
+
+Essas melhorias proporcionarão um ambiente completo de prática em Laravel Fullstack.
+
+---
+
+## 🗺️ Roadmap
+
+- [x] Cadastro básico de usuários
+- [x] CRUD completo utilizando controllers e requests
+- [x] Integração com TailwindCSS
+- [ ] Módulo de Fórum de Discussões
+- [ ] Suporte a upload de imagens em posts
+- [ ] Criação de API REST para usuários
+- [ ] Autenticação via API Token
+- [ ] Melhorias no layout com Tailwind e componentes reutilizáveis
+- [ ] Testes automatizados (Feature e Unit tests)
+
+--
+
 ## 🧑‍💻 Autor
 
-Projeto desenvolvido por **[Seu Nome]** — [LinkedIn](https://www.linkedin.com/in/Felipe-Cjesus)  
+Projeto desenvolvido por **[Felipe Costa de Jesus]** — [LinkedIn](https://www.linkedin.com/in/Felipe-Cjesus)  
 Contato: felipecosta.developer@gmail.com
 
 ---
