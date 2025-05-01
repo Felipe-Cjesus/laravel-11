@@ -1,4 +1,4 @@
-# Curso de Laravel 11 — Cadastro de Usuários
+# Curso de Laravel 11 â€” Cadastro de UsuÃ¡rios
 
 ![Laravel](https://img.shields.io/badge/Laravel-11.x-ff2d20?style=for-the-badge&logo=laravel&logoColor=white)
 ![TailwindCSS](https://img.shields.io/badge/TailwindCSS-3.x-06b6d4?style=for-the-badge&logo=tailwind-css&logoColor=white)
@@ -10,12 +10,12 @@
 
 ---
 
-Bem-vindo ao repositório do projeto desenvolvido durante o curso de aprendizado de **Laravel 11**!  
-Este projeto consiste em um sistema de **cadastro de usuários**, aplicando as **boas práticas de desenvolvimento** recomendadas pelo framework, com a interface estilizada utilizando **TailwindCSS**.
+Bem-vindo ao repositÃ³rio do projeto desenvolvido durante o curso de aprendizado de **Laravel 11**!  
+Este projeto consiste em um sistema de **cadastro de usuÃ¡rios**, aplicando as **boas prÃ¡ticas de desenvolvimento** recomendadas pelo framework, com a interface estilizada utilizando **TailwindCSS**.
 
 ---
 
-## ? Tecnologias Utilizadas
+## âœ¨ Tecnologias Utilizadas
 
 - [Laravel 11](https://laravel.com/docs/11.x)
 - [TailwindCSS](https://tailwindcss.com/)
@@ -26,30 +26,30 @@ Este projeto consiste em um sistema de **cadastro de usuários**, aplicando as **
 
 ---
 
-## ?? Objetivos do Projeto
+## ğŸ“š Objetivos do Projeto
 
-- Entender a estrutura básica de um projeto Laravel.
+- Entender a estrutura bÃ¡sica de um projeto Laravel.
 - Utilizar recursos modernos do Laravel como controllers, requests, validation e Eloquent ORM.
-- Aplicar princípios de Clean Code e boas práticas.
-- Estilizar as páginas com **TailwindCSS** de forma prática e responsiva.
-- Criar operações CRUD (Create, Read, Update, Delete) completas para a entidade **Usuário**.
+- Aplicar princÃ­pios de Clean Code e boas prÃ¡ticas.
+- Estilizar as pÃ¡ginas com **TailwindCSS** de forma prÃ¡tica e responsiva.
+- Criar operaÃ§Ãµes CRUD (Create, Read, Update, Delete) completas para a entidade **UsuÃ¡rio**.
 
 ---
 
-## ?? Instalação e Execução
+## âš™ï¸ InstalaÃ§Ã£o e ExecuÃ§Ã£o
 
-1. Clone o repositório:
+1. Clone o repositÃ³rio:
    ```bash
    git clone https://github.com/seu-usuario/seu-repositorio.git
    cd seu-repositorio
    ```
 
-2. Instale as dependências PHP:
+2. Instale as dependÃªncias PHP:
    ```bash
    composer install
    ```
 
-3. Instale as dependências JavaScript:
+3. Instale as dependÃªncias JavaScript:
    ```bash
    npm install
    ```
@@ -69,7 +69,7 @@ Este projeto consiste em um sistema de **cadastro de usuários**, aplicando as **
    DB_PASSWORD=senha
    ```
 
-6. Gere a chave da aplicação:
+6. Gere a chave da aplicaÃ§Ã£o:
    ```bash
    php artisan key:generate
    ```
@@ -96,51 +96,51 @@ Este projeto consiste em um sistema de **cadastro de usuários**, aplicando as **
 
 ---
 
-## ?? Funcionalidades
+## ğŸ“‹ Funcionalidades
 
-- Cadastro de novos usuários
-- Listagem de usuários
-- Edição de informações de usuários
-- Exclusão de registros
-- Validação de formulários
+- Cadastro de novos usuÃ¡rios
+- Listagem de usuÃ¡rios
+- EdiÃ§Ã£o de informaÃ§Ãµes de usuÃ¡rios
+- ExclusÃ£o de registros
+- ValidaÃ§Ã£o de formulÃ¡rios
 - Layout responsivo e moderno com TailwindCSS
 
 ---
 
-## ??? Estrutura do Projeto
+## ğŸ› ï¸ Estrutura do Projeto
 
 ```
 app/
-??? Http/
-?   ??? Controllers/
-?   ??? Requests/
-?   ??? ...
+â”œâ”€â”€ Http/
+â”‚   â”œâ”€â”€ Controllers/
+â”‚   â”œâ”€â”€ Requests/
+â”‚   â””â”€â”€ ...
 resources/
-??? views/
-?   ??? users/
-?   ??? layouts/
+â”œâ”€â”€ views/
+â”‚   â”œâ”€â”€ users/
+â”‚   â””â”€â”€ layouts/
 routes/
-??? web.php
+â”œâ”€â”€ web.php
 database/
-??? migrations/
+â”œâ”€â”€ migrations/
 ```
 
 ---
 
-## ?? Aprendizados
+## ğŸš€ Aprendizados
 
-- Utilização de rotas, controllers e views no padrão MVC.
-- Trabalhar com validações de formulários via Form Request.
+- UtilizaÃ§Ã£o de rotas, controllers e views no padrÃ£o MVC.
+- Trabalhar com validaÃ§Ãµes de formulÃ¡rios via Form Request.
 - Estilizar com TailwindCSS de maneira produtiva.
-- Aplicar padrões de projeto e organização de código no Laravel.
+- Aplicar padrÃµes de projeto e organizaÃ§Ã£o de cÃ³digo no Laravel.
 
 ---
 
-## ????? Autor
+## ğŸ§‘â€ğŸ’» Autor
 
-Projeto desenvolvido por **[Seu Nome]** — [LinkedIn](https://www.linkedin.com/in/Felipe-Cjesus)  
+Projeto desenvolvido por **[Seu Nome]** â€” [LinkedIn](https://www.linkedin.com/in/Felipe-Cjesus)  
 Contato: felipecosta.developer@gmail.com
 
 ---
 
-**Licença:** Este projeto está licenciado sob a licença MIT.
+**LicenÃ§a:** Este projeto estÃ¡ licenciado sob a licenÃ§a MIT.
