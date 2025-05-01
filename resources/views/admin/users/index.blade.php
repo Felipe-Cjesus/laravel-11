@@ -1,16 +1,18 @@
 @extends('admin.layouts.app')
-@section('title', 'Listagem dos usu�rios')
+@section('title', 'Listagem dos usuários')
 @section('content')
-<h1>Usu�rios</h1>
-    
+    <h1>Usuários</h1>
+
     <a href="{{ route('users.create') }}">Novo</a>
+
+    <x-alert/>
 
     <table>
         <thead>
             <tr>
                 <th>Nome</th>
                 <th>E-mail</th>
-                <th>-</th>
+                <th>Ações</th>
             </tr>
         </thead>
         <tbody>
@@ -18,11 +20,14 @@
                 <tr>
                     <td>{{ $user->name }}</td>
                     <td>{{ $user->email }}</td>
-                    <td>-</td>
+                    <td>
+                        <a href="{{ route('users.edit', $user->id) }}">Editar</a>
+                        <a href="{{ route('users.show', $user->id) }}">Detalhes</a>
+                    </td>
                 </tr>
             @empty
                 <tr>
-                    <td colspan="100">Nenhum usua?rio cadastrado</td>
+                    <td colspan="100">Nenhum usuário cadastrado</td>
                 </tr>
             @endforelse
         </tbody>
